@@ -1,0 +1,7 @@
+@import 'variables';
+
+body {
+    background-color: $mainBgColor !important;
+    color: $mainTextColor !important;
+    overflow: scroll;
+}

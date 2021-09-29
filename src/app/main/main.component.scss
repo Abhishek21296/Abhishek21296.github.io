@@ -1,0 +1,152 @@
+.btn-links {
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #aeb5bd;
+}
+
+.icon-white {
+  color: white;
+}
+
+img.showcase { 
+  max-width: 100%; 
+  height: auto; 
+}
+
+.title a {
+  color: #778492;
+  font-size: 18px;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #5f6b77;
+}
+
+.summary {
+  margin-bottom: 30px;
+  color: #778492;
+}
+
+.featured-image {
+  position: relative;
+}
+
+.featured-image .text {
+  background: #3AAA64;
+  color: #fff;
+}
+
+.level-title {
+  margin: 0;
+}
+
+.list-unstyled { 
+  margin: 0;
+}
+
+.featured-image .ribbon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+}
+
+.featured-image .ribbon .text {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: -8px;
+  top: 18px;
+  width: 158px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #479FC8;
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+}
+
+.featured-image .ribbon .text:before,
+.featured-image .ribbon .text:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  border-top: 5px solid #276582;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.featured-image .ribbon .text:before {
+  left: 0;
+}
+
+.featured-image .ribbon .text:after {
+  right: 0;
+}
+
+.btn-custom {
+  background: #479FC8;
+  border: 1px solid #479FC8;
+  color: #fff;
+  font-weight: 600;
+}
+
+.item {
+  margin-top: 30px;
+}
+
+.item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.item p {
+  margin: 0;
+}
+
+.link-margin {
+  margin-top: 10px !important;
+}
+
+.more-link {
+  padding-top: 30px;
+  text-decoration: none;
+  color: lightgreen
+}
+
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.title {
+  color: #778492;
+  margin-top: 0;
+}
+
+.year {
+  font-weight: 200;
+}
+
+.spaced {
+  margin-top: 5px;
+}
+
+.yellow-green {
+  color: yellowgreen;
+}
